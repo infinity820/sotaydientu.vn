@@ -13,7 +13,7 @@ body{
 }
 /*-----Sách-----*/
 .book{
-    border: 4px solid #999902;
+    border: 4px solid#999902;
     position: relative;
     width: auto;
     height: auto;
