@@ -85,7 +85,7 @@ button{
         bottom: 50px;
         text-align: 10px;
         margin-bottom: 0px;
-        font-size: 15px;
+        font-size: 12px;
         text-decoration: underline;
         color: #eb5151;
         line-height: 1;
@@ -103,7 +103,7 @@ button{
     }
     p1{
         text-align: 10px;
-        font-size: 12px;
+        font-size: 13px;
         color: #db7171;
     }
     .back-home {
