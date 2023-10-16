@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #ffffffe5;
+}
+/*-----Sách-----*/
+.book{
+    border: 5px solid #1100ff;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.front,
+.back{
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.front-content,
+.back-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----Chuyển----*/
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 35px;
+}
+@media screen and (max-width: 500px){
+    body{
+        background-size: 100% 60%;
+    }
+    button{
+        font-size: 15px;
+    }
+    .book{
+        width: 280px;
+        height: 480px;
+    }
+    .book img{
+        width: 270px;
+        height: 470px;
+    }
+    .book .front h2 {
+        text-align: center;
+        font-size: 22px;
+        text-shadow: 2px 2px 5px #000000;
+        font-family: sans-serif;
+    }
+    .book h4{
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 5px 5px 5px rgb(73, 67, 67);
+        font-family: sans-serif;
+    }
+    .nganhluat img{
+        width: 266px;
+        height: 276px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 2px 2px 5px #000000;
+        text-decoration: underline;
+        font-family: sans-serif;
+    }
+    h3 {
+        bottom: 50px;
+        text-align: 10px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        text-decoration: underline;
+        color: #eb5151;
+        line-height: 1;
+    }
+    .logoluathn img{
+        width: 90px;
+        height: 90px;
+        margin: auto;
+        display: block;
+    }
+    h5 {
+        text-align: center;
+        font-size: 18px;
+        font-family: sans-serif; 
+    }
+    p1{
+        text-align: 10px;
+        font-size: 15px;
+        color: #db7171;
+    }
+    .back-home {
+        position: absolute;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 4px;
+        bottom: 5px;
+        right: 12px;
+        cursor: pointer;
+        color: #000;
+        }
+}
