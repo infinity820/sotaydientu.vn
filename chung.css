@@ -13,7 +13,7 @@ body{
 }
 /*-----Sách-----*/
 .book{
-    border: 5px solid#999902;
+    border: 5px solid #999902;
     position: relative;
     width: auto;
     height: auto;
@@ -48,7 +48,7 @@ button{
         background-size: 100% 60%;
     }
     button{
-        font-size: 15px;
+        font-size: 10px;
     }
     .book{
         width: 280px;
@@ -85,7 +85,7 @@ button{
         bottom: 50px;
         text-align: 10px;
         margin-bottom: 0px;
-        font-size: 12px;
+        font-size: 15px;
         text-decoration: underline;
         color: #eb5151;
         line-height: 1;
@@ -103,7 +103,7 @@ button{
     }
     p1{
         text-align: 10px;
-        font-size: 13px;
+        font-size: 15px;
         color: #db7171;
     }
     .back-home {
