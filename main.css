@@ -178,10 +178,15 @@ p7 {
     line-height: 1;
 }
 .back h4 img{
-    width: 300px;
-    height: 200px;
+    width: 390px;
+    height: 420px;
+
 }
 .front h4 img{
+    width: 390px;
+    height: 420px;
+}
+.front .logosupham img{
     width: 390px;
     height: 420px;
 }
@@ -191,8 +196,8 @@ p7 {
     margin: auto;
     display: block;
 }
-.flip h10 img{
-    width: 400px;
+.front h10 img{
+    width: 380px;
     height: 420px;
 }
 .back h11 img{
@@ -214,11 +219,13 @@ p1{
     color: #db7171;
 }
 .textarea {
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 20px;
     width: 370px;
-    height: 415px;
+    height: 425px;
     background-color: #d3cfcfe3;
+    margin: auto;
+    display: block;
     }
 
 .book {
@@ -322,63 +329,60 @@ p1{
     font-family: sans-serif;
 }
 #p1 {
-    z-index: 20;
-    }
-#p2 {
     z-index: 19;
     }
-#p3 {
+#p2 {
     z-index: 18;
     }
-#p4 {
+#p3 {
     z-index: 17;
     }
-#p5 {
+#p4 {
     z-index: 16;
     }
-#p6 {
+#p5 {
     z-index: 15;
     }
-#p7 {
+#p6 {
     z-index: 14;
     }
-#p8 {
+#p7 {
     z-index: 13;
     }
-#p9 {
+#p8 {
     z-index: 12;
     }
-#p10 {
+#p9 {
     z-index: 11;
     }
-#p11 {
+#p10 {
     z-index: 10;
     }
-#p12 {
+#p11 {
     z-index: 9;
     }
-#p13 {
+#p12 {
     z-index: 8;
     }
-#p14 {
+#p13 {
     z-index: 7;
     }
-#p15 {
+#p14 {
     z-index: 6;
     }
-#p16 {
+#p15 {
     z-index: 5;
     }
-#p17 {
+#p16 {
     z-index: 4;
     }
-#p18 {
+#p17 {
     z-index: 3;
     }
-#p19 {
+#p18 {
     z-index: 2;
     }
-#p20 {
+#p19 {
     z-index: 1;
     }
 #c1:checked ~ .flip-book #p1 {
@@ -456,8 +460,4 @@ p1{
 #c19:checked ~ .flip-book #p19 {
     transform: rotateY(-180deg);
     z-index: 19;
-}
-#c20:checked ~ .flip-book #p20 {
-    transform: rotateY(-180deg);
-    z-index: 20;
 }
