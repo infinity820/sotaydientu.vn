@@ -4,7 +4,11 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: lightblue;
+    background-image: url(anh/logolop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60% 100%;
+    background-position: center;
     }
 input {
     display: none;
